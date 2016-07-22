@@ -131,7 +131,137 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: armature|damage
+      takeName: armature|damage
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/armIK.L
+        weight: 0
+      - path: armature/armIK.L/armIK.L_end
+        weight: 0
+      - path: armature/armIK.R
+        weight: 0
+      - path: armature/armIK.R/armIK.R_end
+        weight: 0
+      - path: armature/armPole.L
+        weight: 0
+      - path: armature/armPole.L/armPole.L_end
+        weight: 0
+      - path: armature/armPole.R
+        weight: 0
+      - path: armature/armPole.R/armPole.R_end
+        weight: 0
+      - path: armature/footIK.L
+        weight: 0
+      - path: armature/footIK.L/footIK.L_end
+        weight: 0
+      - path: armature/footIK.R
+        weight: 0
+      - path: armature/footIK.R/footIK.R_end
+        weight: 0
+      - path: armature/hips
+        weight: 1
+      - path: armature/hips/spine
+        weight: 1
+      - path: armature/hips/spine/chest
+        weight: 1
+      - path: armature/hips/spine/chest/neck
+        weight: 1
+      - path: armature/hips/spine/chest/neck/head
+        weight: 1
+      - path: armature/hips/spine/chest/neck/head/head_end
+        weight: 0
+      - path: armature/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: armature/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: armature/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: armature/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: armature/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L/hand.L_end
+        weight: 0
+      - path: armature/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: armature/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: armature/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: armature/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: armature/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R/hand.R_end
+        weight: 0
+      - path: armature/hips/thigh.L
+        weight: 1
+      - path: armature/hips/thigh.L/shin.L
+        weight: 1
+      - path: armature/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: armature/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: armature/hips/thigh.L/shin.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: armature/hips/thigh.L/shin.L/heel.L
+        weight: 0
+      - path: armature/hips/thigh.L/shin.L/heel.L/heel.02.L
+        weight: 0
+      - path: armature/hips/thigh.L/shin.L/heel.L/heel.02.L/heel.02.L_end
+        weight: 0
+      - path: armature/hips/thigh.R
+        weight: 1
+      - path: armature/hips/thigh.R/shin.R
+        weight: 1
+      - path: armature/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: armature/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: armature/hips/thigh.R/shin.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: armature/hips/thigh.R/shin.R/heel.R
+        weight: 0
+      - path: armature/hips/thigh.R/shin.R/heel.R/heel.02.R
+        weight: 0
+      - path: armature/hips/thigh.R/shin.R/heel.R/heel.02.R/heel.02.R_end
+        weight: 0
+      - path: armature/LegPole.L
+        weight: 0
+      - path: armature/LegPole.L/LegPole.L_end
+        weight: 0
+      - path: armature/LegPole.R
+        weight: 0
+      - path: armature/LegPole.R/LegPole.R_end
+        weight: 0
+      - path: base
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
